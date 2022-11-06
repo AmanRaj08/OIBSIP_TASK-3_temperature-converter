@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./l2task3/public/intern.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temprature</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="hed">Temperature converter</div>
+        <div class="boxcontainer">
+            <div class="box1">
+                <p>Degree</p>
+                <input type="number" class="takval" />
+            </div>
+            <div class="box1">
+                <p>From</p>
+                <select name="" id="unit1">   
+                     <option value="Fahrenheit">Fahrenheit</option>
+                     <option value="Celsius">Celsius</option> 
+                     <option value="Kelvin">Kelvin</option> 
+                </select>
+            </div>
+            <div class="box1">
+                <p>To</p>
+                <select name="" id="unit2">   
+                     <option value="Fahrenheit">Fahrenheit</option>
+                     <option value="Celsius">Celsius</option> 
+                     <option value="Kelvin">Kelvin</option> 
+                </select>
+            </div>
+        </div>
+        <div class="valuecontainer">
+            <p>Result</p>
+            <div class="value"></div>
+        </div>
+        <button onclick="temprature()" class="button">Converte</button>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
